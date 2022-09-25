@@ -38,3 +38,28 @@
 #form-ok {
   width: 60px;
 }
+
+.steps-сontainer {
+  margin-top: 15px;
+}
+
+.step-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.step-el {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.step {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+

@@ -5,7 +5,7 @@ export default class StepModel {
     this.id = nanoid();
     this.date = date;
     this.distance = distance;
-    this.time = StepModel.getTimestamp(date);
+    this.time = new Date(date).getTime()
   }
 
   static getTimestamp(date) {

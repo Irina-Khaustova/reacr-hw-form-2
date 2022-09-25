@@ -2,31 +2,21 @@ import React from "react";
 import Step from "./Step";
 
 
-function StepLog({steps, onHandleEdit}) {
- console.log(steps)
- let stepsDraw = '';
-
- if(steps.length) {
-   stepsDraw = steps.map((step) => <Step step={step}  key={step.id} HandleEdit={onHandleEdit}></Step>);
- }
-
- console.log(stepsDraw)
-
- const array = [
-  {id: 2, }
- ]
+function StepLog({steps, onHandleEdit, onHandleDelete}) {
+  
     return (
       <div className="steps-сontainer">
         <div className="step-header">
           <div className="step-date" >Дата(дд.мм.гг)</div>
-          <div className="step-date" >Пройдено</div>
+          <div className="step-date" >Пройдено, км</div>
           <div className="step-date" >Действия</div>
         </div>  
         <div className="step-el">
-        {stepsDraw}
+        {steps.sort((a, b) => b.time - a.time).map(step => (<Step key={step.id} id ={step.id} date={step.date} distance={step.distance} handleStepEdit={onHandleEdit} handleStepDelete={onHandleDelete}/>))}
         </div>
       </div>
     );
   }
   
+  //{steps.map((step) => <Step step={step}  key={step.id} HandleEdit={onHandleEdit}></Step>)}
   export default StepLog;
