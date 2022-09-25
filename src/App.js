@@ -52,7 +52,6 @@ function App() {
 
   const handleEdit = (evt) => {
     const prov = steps.filter(el =>  evt.target.parentNode.id === el.id)
-    console.log('элемент события', evt.target.parentNode.id, prov[0].date);
     setForm(prevForm => ({...prevForm, date: prov[0].date}))
     setForm(prevForm => ({...prevForm, distance: prov[0].distance}))
     setForm(prevForm => ({...prevForm, id: prov[0].id}))
@@ -61,7 +60,6 @@ function App() {
 
   const handleDelete = (evt) => {
     const delElement = steps.filter(el => el.id === evt.target.parentNode.id);
-    console.log(delElement, steps.indexOf(delElement[0]))
     if(delElement.length > 0) {
        steps.splice(steps.indexOf(delElement[0]),1)
     }

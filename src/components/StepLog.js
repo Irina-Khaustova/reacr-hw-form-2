@@ -18,5 +18,4 @@ function StepLog({steps, onHandleEdit, onHandleDelete}) {
     );
   }
   
-  //{steps.map((step) => <Step step={step}  key={step.id} HandleEdit={onHandleEdit}></Step>)}
   export default StepLog;

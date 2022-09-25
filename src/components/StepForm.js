@@ -1,8 +1,6 @@
 import React from "react";
 
 function StepForm({form, onHandleChange, onHandleSubmit}) {
-    //const {form, onHandleChange} = props;
-    //console.log(onChange)
     return (
       <form className="form" onSubmit={onHandleSubmit}>
         <div className="form-date-container">
