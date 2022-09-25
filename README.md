@@ -7,7 +7,7 @@ https://github.com/Irina-Khaustova/reacr-hw-form-2/deployments
 
 Общий интерфейс должен выглядеть следующим образом:
 
-![Steps](./assets/steps.png)
+image.png
 
 ## Добавление данных
 
