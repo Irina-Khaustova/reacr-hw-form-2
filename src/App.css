@@ -47,6 +47,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .step-el {
@@ -59,7 +60,26 @@
 .step {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin-bottom: 10px;
+  justify-content: space-between;
 }
 
+.step-date {
+  margin-right: 140px;
+}
+
+.step-distance {
+  margin-right: 130px;
+}
+
+.step-edit {
+  margin-right: 15px;
+}
+
+.step-edit:hover {
+  cursor: pointer;
+}
+
+.step-delete:hover {
+  cursor: pointer;
+}

@@ -9,7 +9,7 @@ function StepForm({form, onHandleChange, onHandleSubmit}) {
         </div>
         <div className="form-distance-container">
           <label className="form-label-distance" htmlFor="form-distance">Пройдено, км</label>
-          <input type="number" id="form-distance" name="distance" value={form.distance} onChange={onHandleChange}></input>
+          <input placeholder="введите число" type="number" id="form-distance" name="distance" value={form.distance} onChange={onHandleChange}></input>
         </div>
         <button id="form-ok" >OK</button>
       </form>
