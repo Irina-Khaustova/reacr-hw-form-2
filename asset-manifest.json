@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/reacr-hw-form-2/static/css/main.1fc89925.css",
-    "main.js": "/reacr-hw-form-2/static/js/main.7a0398b9.js",
+    "main.css": "/reacr-hw-form-2/static/css/main.3b519d61.css",
+    "main.js": "/reacr-hw-form-2/static/js/main.23435d37.js",
     "static/js/787.88a6ebb0.chunk.js": "/reacr-hw-form-2/static/js/787.88a6ebb0.chunk.js",
     "index.html": "/reacr-hw-form-2/index.html",
-    "main.1fc89925.css.map": "/reacr-hw-form-2/static/css/main.1fc89925.css.map",
-    "main.7a0398b9.js.map": "/reacr-hw-form-2/static/js/main.7a0398b9.js.map",
+    "main.3b519d61.css.map": "/reacr-hw-form-2/static/css/main.3b519d61.css.map",
+    "main.23435d37.js.map": "/reacr-hw-form-2/static/js/main.23435d37.js.map",
     "787.88a6ebb0.chunk.js.map": "/reacr-hw-form-2/static/js/787.88a6ebb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fc89925.css",
-    "static/js/main.7a0398b9.js"
+    "static/css/main.3b519d61.css",
+    "static/js/main.23435d37.js"
   ]
 }
